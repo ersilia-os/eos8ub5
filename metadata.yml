@@ -1,43 +1,41 @@
-Biomedical Area:
-- Any
-Contributor: miquelduranfrigola
-Deployment:
-- Local
-Description: 'This tool performs PCA, UMAP and tSNE projections taking the Coconut
+Identifier: eos8ub5
+Slug: chemical-space-projections-coconut
+Status: Ready
+Title: Projections against Coconut
+Description: This tool performs PCA, UMAP and tSNE projections taking the Coconut
   natural products database as a chemical space of reference. The Ersilia Compound
   Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE components
   are returned.
-
-  '
-Docker Architecture:
-- AMD64
-- ARM64
-DockerHub: https://hub.docker.com/r/ersiliaos/eos8ub5
-Identifier: eos8ub5
-Incorporation Date: '2024-11-10'
+Deployment:
+  - Local
+Source: Local
+Source Type: Internal
+Task: Representation
+Subtask: Projection
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Input Shape: Single
-Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
-License: GPL-3.0-or-later
 Output:
-- Value
-Output Consistency: Fixed
+  - Value
 Output Dimension: 8
-Publication: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00478-9
+Output Consistency: Fixed
+Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
+Tag:
+  - Embedding
+Biomedical Area:
+  - Any
+Target Organism:
+  - Not Applicable
 Publication Type: Peer reviewed
 Publication Year: 2021
-S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip
-Slug: chemical-space-projections-coconut
-Source: Local
+Publication: https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00478-9
 Source Code: https://github.com/ersilia-os/compound-embedding
-Source Type: Internal
-Status: Ready
-Subtask: Projection
-Tag:
-- Embedding
-Target Organism:
-- Not Applicable
-Task: Representation
-Title: Projections against Coconut
+License: GPL-3.0-or-later
+Contributor: miquelduranfrigola
+Incorporation Date: '2024-11-10'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos8ub5
+Docker Architecture:
+  - AMD64
+  - ARM64
