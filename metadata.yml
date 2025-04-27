@@ -15,7 +15,6 @@ Subtask: Projection
 Input:
   - Compound
 Input Dimension: 1
-Input Shape: Single
 Output:
   - Value
 Output Dimension: 8
