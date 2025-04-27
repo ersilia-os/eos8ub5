@@ -35,17 +35,15 @@ Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-10'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos8ub5
-Docker Architecture:
-  - AMD64
-  - ARM64
+Docker Architecture: AMD64
 Docker Pack Method: FastAPI
 Model Size: 1946.0
 Environment Size: 973.0
-Image Size: 6738.22
-Computational Performance 4: 163.18
-Computational Performance 7: 151.13
-Computational Performance 12: 149.78
-Computational Performance 20: 146.48
-Computational Performance 34: 149.25
-Computational Performance 58: 149.89
-Computational Performance 100: 147.32
+Image Size: 6739.05
+Computational Performance 4: 138.91
+Computational Performance 7: 128.81
+Computational Performance 12: 129.51
+Computational Performance 20: 128.59
+Computational Performance 34: 130.2
+Computational Performance 58: 130.16
+Computational Performance 100: 130.68
