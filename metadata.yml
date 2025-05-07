@@ -36,7 +36,7 @@ Incorporation Date: '2024-11-10'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos8ub5
 Docker Architecture: AMD64
-Docker Pack Method: FastAPI
 Model Size: 1946.0
 Environment Size: 973.0
 Image Size: 6739.05
+Docker Pack Method: FastAPI
