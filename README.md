@@ -50,10 +50,6 @@ Below are the **Output Columns** of the model:
 - **Environment Size (Mb):** `973`
 - **Image Size (Mb):** `6739.05`
 
-**Computational Performance (seconds):**
-- 4 inputs: `138.91`
-- 20 inputs: `128.59`
-- 100 inputs: `130.68`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
