@@ -2,8 +2,7 @@
 
 This tool performs PCA, UMAP and tSNE projections taking the Coconut natural products database as a chemical space of reference. The Ersilia Compound Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE components are returned.
 
-This model was incorporated on 2024-11-10.
-
+This model was incorporated on 2024-11-10.Last packaged on 2025-11-18.
 
 ## Information
 ### Identifiers
@@ -43,17 +42,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos8ub5](https://hub.docker.com/r/ersiliaos/eos8ub5)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1947`
 - **Environment Size (Mb):** `989`
-- **Image Size (Mb):** `3065.82`
+- **Image Size (Mb):** `6844.18`
 
 **Computational Performance (seconds):**
-- 10 inputs: `150.86`
-- 100 inputs: `148.2`
+- 10 inputs: `70.69`
+- 100 inputs: `62.21`
 - 10000 inputs: `-1`
 
 ### References
