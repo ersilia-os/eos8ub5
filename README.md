@@ -4,6 +4,7 @@ This tool performs PCA, UMAP and tSNE projections taking the Coconut natural pro
 
 This model was incorporated on 2024-11-10.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos8ub5`
@@ -13,7 +14,7 @@ This model was incorporated on 2024-11-10.
 - **Task:** `Representation`
 - **Subtask:** `Projection`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Embedding`
 
 ### Input
