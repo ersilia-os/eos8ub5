@@ -34,17 +34,17 @@ Source Code: https://github.com/ersilia-os/compound-embedding
 License: GPL-3.0-or-later
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-10'
-Last Packaging Date: '2025-11-18'
+Last Packaging Date: '2026-02-24'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8ub5.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos8ub5
 Docker Architecture: AMD64
 Model Size: 1947.0
 Environment Size: 1003.0
-Image Size: 6844.18
-Computational Performance 1: 70.69
-Computational Performance 2: 60.7
-Computational Performance 3: 62.21
-Computational Performance 4: 410.23
+Image Size: 6865.07
+Computational Performance 1: 85.94
+Computational Performance 2: 74.5
+Computational Performance 3: 70.34
+Computational Performance 4: 419.39
 Computational Performance 5: -1.0
 Docker Pack Method: FastAPI
