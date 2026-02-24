@@ -2,7 +2,7 @@
 
 This tool performs PCA, UMAP and tSNE projections taking the Coconut natural products database as a chemical space of reference. The Ersilia Compound Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE components are returned.
 
-This model was incorporated on 2024-11-10.Last packaged on 2025-11-18.
+This model was incorporated on 2024-11-10.Last packaged on 2026-02-24.
 
 ## Information
 ### Identifiers
@@ -48,11 +48,11 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1947`
 - **Environment Size (Mb):** `1003`
-- **Image Size (Mb):** `6844.18`
+- **Image Size (Mb):** `6865.07`
 
 **Computational Performance (seconds):**
-- 10 inputs: `70.69`
-- 100 inputs: `62.21`
+- 10 inputs: `85.94`
+- 100 inputs: `70.34`
 - 10000 inputs: `-1`
 
 ### References
