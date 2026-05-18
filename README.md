@@ -57,7 +57,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
-- **Publication**: [https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00478-9](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00478-9)
+- **Publication**: [https://doi.org/10.1186/s13321-020-00478-9](https://doi.org/10.1186/s13321-020-00478-9)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2021`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
