@@ -2,10 +2,12 @@ Identifier: eos8ub5
 Slug: chemical-space-projections-coconut
 Status: Ready
 Title: Projections against Coconut
-Description: This tool performs PCA, UMAP and tSNE projections taking the 
-  Coconut natural products database as a chemical space of reference. The 
-  Ersilia Compound Embeddings are used as descriptors. Four PCA components and 
-  two UMAP and tSNE components are returned.
+Description: Projects a molecule onto a two-dimensional map of COCONUT, an aggregation
+  of open natural product collections assembled by Sorokina and colleagues into the
+  largest freely available resource of its kind. Placing a query against that backdrop
+  shows whether it occupies well-populated natural product space or sits at its margins.
+  Coordinates come from dimensionality reduction fitted to the reference set, so they
+  express relative position and cannot be compared across differently trained projections.
 Deployment:
   - Local
 Source: Local
@@ -19,7 +21,8 @@ Output:
   - Value
 Output Dimension: 8
 Output Consistency: Fixed
-Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
+Interpretation: Two-dimensional coordinates placing the molecule within COCONUT natural
+  product chemical space.
 Tag:
   - Embedding
 Biomedical Area:
