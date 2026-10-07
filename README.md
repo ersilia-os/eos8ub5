@@ -1,6 +1,6 @@
 # Projections against Coconut
 
-Projects a molecule onto a two-dimensional map of COCONUT, an aggregation of open natural product collections assembled by Sorokina and colleagues into the largest freely available resource of its kind. Placing a query against that backdrop shows whether it occupies well-populated natural product space or sits at its margins. Coordinates come from dimensionality reduction fitted to the reference set, so they express relative position and cannot be compared across differently trained projections.
+Places a query molecule on the COCONUT chemical space, the aggregation of open natural product collections assembled by Sorokina and colleagues, which held 406,076 unique structures gathered from 53 sources at the time of publication. Ersilia Compound Embeddings act as the descriptors, and PCA, UMAP and t-SNE reductions fitted to that reference return four principal components alongside two coordinates each for UMAP and t-SNE. Positions are relative to the fitted reference and cannot be compared across differently trained projections.
 
 This model was incorporated on 2024-11-10.Last packaged on 2026-02-24.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-11-10.Last packaged on 2026-02-24.
 ### Output
 - **Output Dimension:** `8`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Two-dimensional coordinates placing the molecule within COCONUT natural product chemical space.
+- **Interpretation:** Four principal components plus UMAP and t-SNE coordinates on the COCONUT natural product chemical space.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
