@@ -2,13 +2,14 @@ Identifier: eos8ub5
 Slug: chemical-space-projections-coconut
 Status: Ready
 Title: Projections against Coconut
-Description: Places a query molecule on the COCONUT chemical space, the aggregation
-  of open natural product collections assembled by Sorokina and colleagues, which
-  held 406,076 unique structures gathered from 53 sources at the time of publication.
-  Ersilia Compound Embeddings act as the descriptors, and PCA, UMAP and t-SNE reductions
-  fitted to that reference return four principal components alongside two coordinates
-  each for UMAP and t-SNE. Positions are relative to the fitted reference and cannot
-  be compared across differently trained projections.
+Description: Places a query molecule on the COCONUT chemical space, the 
+  aggregation of open natural product collections assembled by Sorokina and 
+  colleagues, which held 406,076 unique structures gathered from 53 sources at 
+  the time of publication. Ersilia Compound Embeddings act as the descriptors, 
+  and PCA, UMAP and t-SNE reductions fitted to that reference return four 
+  principal components alongside two coordinates each for UMAP and t-SNE. 
+  Positions are relative to the fitted reference and cannot be compared across 
+  differently trained projections.
 Deployment:
   - Local
 Source: Local
@@ -22,8 +23,8 @@ Output:
   - Value
 Output Dimension: 8
 Output Consistency: Fixed
-Interpretation: Four principal components plus UMAP and t-SNE coordinates on the COCONUT
-  natural product chemical space.
+Interpretation: Four principal components plus UMAP and t-SNE coordinates on the
+  COCONUT natural product chemical space.
 Tag:
   - Embedding
 Biomedical Area:
