@@ -2,7 +2,8 @@
 
 Places a query molecule on the COCONUT chemical space, the aggregation of open natural product collections assembled by Sorokina and colleagues, which held 406,076 unique structures gathered from 53 sources at the time of publication. Ersilia Compound Embeddings act as the descriptors, and PCA, UMAP and t-SNE reductions fitted to that reference return four principal components alongside two coordinates each for UMAP and t-SNE. Positions are relative to the fitted reference and cannot be compared across differently trained projections.
 
-This model was incorporated on 2024-11-10.Last packaged on 2026-02-24.
+This model was incorporated on 2024-11-10.
+Last packaged on 2026-02-24.
 
 ## Information
 ### Identifiers
